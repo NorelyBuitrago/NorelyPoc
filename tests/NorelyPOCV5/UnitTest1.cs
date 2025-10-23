@@ -1,9 +1,8 @@
 ﻿
 using NorelyPoc.BlazorApp.Logic;
-using NUnit.Framework;
-using Xunit;
+using Assert = Xunit.Assert;
 
-namespace NorelyPoc.Testsv4
+namespace NorelyPOCV5.Tests
 {
     public class CounterLogicTests
     {
@@ -17,7 +16,7 @@ namespace NorelyPoc.Testsv4
             var initialValue = counter.CurrentCount;
 
             // Assert
-            Assert.Equals(0, initialValue);
+            Assert.Equal(0, initialValue);
         }
 
         [Fact]
@@ -30,7 +29,7 @@ namespace NorelyPoc.Testsv4
             counter.IncrementCount();
 
             // Assert
-            Assert.Equals(1, counter.CurrentCount);
+            Assert.Equal(1, counter.CurrentCount);
         }
     }
 }
