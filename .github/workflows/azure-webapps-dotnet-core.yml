@@ -53,7 +53,7 @@ jobs:
             ${{ runner.os }}-nuget-
 
       - name: Build with dotnet
-        run: dotnet build --configuration Release NorelyPOC/NorelyPOC.csproj
+        run: dotnet build --configuration Release NorelyPOC.csproj
         
       - name: Running App Test
         run: dotnet test
