@@ -1,6 +1,6 @@
 ﻿namespace NorelyPoc.BlazorApp.Logic
 {
-    public class CounterLogic
+    public class CounterLogicv2
     {
         public int CurrentCount { get; private set; } = 0;
 

@@ -5,7 +5,7 @@ VisualStudioVersion = 17.14.36221.1 d17.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorelyPOC", "NorelyPOC.csproj", "{DD5F24AA-9A82-44B5-B4F7-57969D7B8CAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorelyPOCV5", "..\NorelyPOCV5\NorelyPOCV5.csproj", "{9C82B8A7-C762-4607-BB4E-D48DAFD1B341}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NorelyPOCV5.Tests", "..\NorelyPOCV5\NorelyPOCV5.Tests.csproj", "{9C82B8A7-C762-4607-BB4E-D48DAFD1B341}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

@@ -11,7 +11,7 @@ namespace NorelyPoc.Testsv4
         public void Counter_ShouldStartAtZero()
         {
             // Arrange
-            var counter = new CounterLogic();
+            var counter = new CounterLogicv2();
 
             // Act
             var initialValue = counter.CurrentCount;
@@ -24,7 +24,7 @@ namespace NorelyPoc.Testsv4
         public void Counter_ShouldIncrement_WhenIncrementCountCalled()
         {
             // Arrange
-            var counter = new CounterLogic();
+            var counter = new CounterLogicv2();
 
             // Act
             counter.IncrementCount();
